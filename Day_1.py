@@ -41,6 +41,6 @@ class Solution():
         return datas.index(target)
 a = Solution()
 
-nums =  [1, 3, 3, 3, 3]
-target = 4
+nums =  [1, 3, 5, 7, 9]
+target = 6
 print(a.searchInsertionPosition(nums,target))
